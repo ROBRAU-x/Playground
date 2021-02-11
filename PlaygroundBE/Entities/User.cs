@@ -7,11 +7,11 @@ namespace PlaygroundBE.Entities
 {
     public class User
     {
-        private int id { get; set; }
+        public int ID { get; set; }
 
-        private int userName { get; set; }
+        public string userName { get; set; }
 
-        private int passWord { get; set; }
+        public string passWord { get; set; }
 
     }
 }
