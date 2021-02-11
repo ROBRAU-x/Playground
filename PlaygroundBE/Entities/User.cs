@@ -12,5 +12,6 @@ namespace PlaygroundBE.Entities
         private int userName { get; set; }
 
         private int passWord { get; set; }
+
     }
 }
