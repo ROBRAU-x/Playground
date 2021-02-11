@@ -31,8 +31,8 @@ namespace PlaygroundBE
                 try
                 {
                     var context = services.GetRequiredService<UserContext>();
-                   // context.Database.EnsureCreated();
-                    DbInitializer.Initialize(context);
+                    context.Database.EnsureCreated();
+                    //DbInitializer.Initialize(context);
                 }
                 catch (Exception ex)
                 {
